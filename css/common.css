@@ -1,0 +1,43 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.lan {
+    width: 100%;
+    height: 31px;
+    background-color: #e3e4e5;
+}
+.local {
+    float: left;
+}
+.local img {
+    width: 15px;
+    height: 14px;
+}
+.local span {
+    display: inline-block;
+    color: #999;
+    font-size: 12px;
+    padding-left: 5px;
+    line-height: 31px;
+}
+.nav {
+    float: right;
+    font-size: 12px;
+    color: #999999;
+    line-height: 31px;
+}
+.nav ul li {
+    float: left;
+    padding: 0 5px;
+}
+.nav ul li:nth-child(10) {
+    color: #f10215;
+}
+.login {
+    color: #999999;
+}
+.free_register {
+    color: #f10215;
+}
+
