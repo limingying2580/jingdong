@@ -284,6 +284,9 @@
     text-overflow: ellipsis;
     overflow: hidden;
 }
+.tehui ul li:hover>a {
+    text-decoration: none;
+}
 .line2 {
     width: 120px;
     border-bottom: 1px solid #e8e8e8;
@@ -309,9 +312,7 @@
     margin-left: -20px;
     color:#333333;
 }
-.three .t:hover {
-    color: #f10215;
-}
+
 .jieshi:hover{
     color: #f10215;
 }
@@ -321,10 +322,23 @@
     margin-top: -13px;
     margin-left: -20px;
 }
+.three .t:hover {
+    color: #f10215;
+}
+.iconshouji {
+    font-size: 22px;
+    text-align: center;
+    margin-top: -15px;
+    margin-left: -20px;
+    color: dodgerblue;
+}
+.iconshouji:hover{
+    color: #f10215;
+}
 .huafei {
     margin-top: -5px;
     color: dodgerblue;
-    content: "\e958";
+    /*content: "\e958";*/
     font-family: icomoon;
 }
 .jipiao{
@@ -442,39 +456,34 @@
     height: 30px;
     background-color: #303030;
 }
+
 .miaosha_goods {
     float: left;
-    width: 200px;
+    width: 800px;
     height: 260px;
+    background-color: #f8f8f8;
 }
 .miaosha_goods ul li {
+    width: 200px;
+    height: 260px;
+    padding: 20px 30px;
     float: left;
 }
 .miaosha_tu {
     width: 140px;
     height: 140px;
     float: left;
-
 }
 .miaosha_jieshi {
     float: left;
-    font-size: 14px;
+    font-size: 12px;
     max-width: 160px;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
+    padding-top: 20px;
 }
-.price .old {
-    font-size:12px;
-    color: gray;
-    text-decoration: line-through;
-}
-.price {
-    width: 160px;
-    height: 24px;
-    border:1px solid red;
-    margin: 0 auto;
-}
+
 .miaosha_xianjia {
     position: relative;
     float: left;
@@ -486,16 +495,119 @@
     font-weight: 700;
 }
 .miaosha_xianjia i {
-    float: right;
+    float: left;
     position: absolute;
     top: 0;
     right: 0;
     height: 0;
     width: 0;
-    border-color:transparent white transparent transparent;
+    border-color:transparent white red transparent;
     border-style: solid;
-    border-width: 24px 10px 0 0;
+    border-width: 22px 10px 0 0;
 
 }
+.old {
+    text-align: center;
+    line-height: 24px;
+    font-size:12px;
+    color: #999999;
+    text-decoration: line-through;
+}
+.price {
+    width: 150px;
+    height: 24px;
+    border:1px solid red;
+    margin: 190px auto;
+}
+.shuxian {
+    border-right: 1px solid #e8e8e8;
+    height: 170px;
+    margin-top: -385px;
+    margin-left: 168px;
+}
+.g:hover {
+    color: #f10215;
+}
+.iphone_miaosha {
+    float: right;
+    width: 200px;
+    height: 260px;
+    background-color: #f8f8f8;
 
-
+}
+.iphone_tu {
+    width: 120px;
+    height: 120px;
+    padding:20px 30px;
+}
+.shangou {
+    float: left;
+    width: 70px;
+    height: 25px;
+    border-radius: 10px;
+    border: 1px solid #f10215;
+    color: #f10215;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: center;
+    margin-top: -12px;
+    margin-left: 65px;
+}
+.shangou:after{
+    content: "\ea50";
+    font-size: 10px;
+    font-family: icomoon;
+}
+.shangou:hover {
+    background-color: #f10215;
+    color: white;
+}
+.goods2 {
+    margin-top: 20px;
+    height: 340px;
+}
+.m {
+    width: 590px;
+    height: 340px;
+    background-color: #f8f8f8;
+}
+.meiritejia {
+    float: left;
+    margin-right: 10px;
+}
+.pinpaishangou {
+    float: right;
+}
+.mrtj {
+    float: left;
+    font-size: 22px;
+    font-weight: 700;
+    color:black;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.mrtj:after{
+    content: "\ea42";
+    font-family: icomoon;
+    font-size: 20px;
+    font-weight: 400;
+    color: #f10215;
+    padding-left: 5px;
+}
+.jingxuan {
+    float: right;
+}
+.jingxuan ul li{
+    float: left;
+    margin-top: 15px;
+    margin-right: 30px;
+}
+.jingxuan ul li>a{
+    padding:10px 0;
+    font-size: 14px;
+    color: #999999;
+}
+.jingxuan ul li>a:hover {
+    color: #f10215;
+}

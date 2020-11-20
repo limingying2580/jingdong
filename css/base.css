@@ -9,7 +9,16 @@ li {
     list-style: none;
 }
 a {
-    text-decoration: none;
+    text-decoration: none !important;
+}
+a:link {
+    text-decoration: none !important;
+}
+a:hover {
+    text-decoration: none !important;
+}
+li:hover {
+   border: none !important;
 }
 img {
     vertical-align: middle;
