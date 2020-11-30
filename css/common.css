@@ -46,4 +46,36 @@
 .free_register {
     color: #f10215;
 }
+.you_dingwei {
+    position: fixed;
+    width: 58px;
+    margin-left: 1575px;
+    margin-top: 20px;
+    top:170px;
+    background-color: #f8f8f8;
+}
+.you_dingwei li {
+    height: 60px;
+}
+.you_dingwei li:hover {
+    background-color: #f10215;
+    color: white;
+}
+.dingwei {
+    width: 58px;
+    height: 60px;
+    padding:10px 15px;
+    font-size: 13px;
+}
+.iconfont {
+    font-size: 16px !important;
+    text-align: center;
+    margin-bottom: -3px;
+}
+.bottom_line {
+    margin-left: 18px;
+    width: 20px;
+    border-bottom: 1px solid #cccccc;
+}
+
 

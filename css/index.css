@@ -611,3 +611,222 @@
 .jingxuan ul li>a:hover {
     color: #f10215;
 }
+.dijia {
+    width: 170px;
+    height: 263px;
+    background-color: #ffffff;
+    text-align: center;
+    margin-top: 67px;
+    margin-left: 16px;
+}
+dijia :hover {
+    color: #f10215;
+}
+.dijia108 {
+    width: 90px;
+    height: 24px;
+    background-color: orange;
+    text-align: center;
+    color: white;
+    line-height: 24px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.dijia_shouji img {
+    width: 120px;
+    height: 120px;
+    margin-top: 27px;
+}
+.dijia_intro {
+    width: 154px;
+    margin-left: 9px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: black;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.dijia_yuan {
+    margin-top: 5px;
+}
+.dijia_yuan span:first-child {
+    color: #f10215;
+    font-size: 18px;
+    font-weight: 700;
+}
+.dijia_yuan span:last-child {
+    color: #999999;
+    font-size: 12px;
+    text-decoration: line-through;
+
+}
+.baihuo {
+    float: right;
+}
+.baihuo ul {
+    float: left;
+    margin-top: -238px;
+    margin-left: 170px;
+}
+.baihuo ul li {
+    float: left;
+    margin-left: 40px;
+    height: 130px;
+    width: 160px;
+}
+.baihuo_tu img {
+    float: left;
+    width: 84px;
+    height: 84px;
+    padding-right: 5px;
+}
+.baihuo_title {
+    float: left;
+    width: 75px;
+    font-size: 12px;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;
+}
+.baihuo_yj {
+    font-size: 15px;
+    color: #f10215;
+    font-weight: 700;
+}
+.baihuo_xj {
+    float: left;
+    font-size: 11px;
+    color: #999999;
+    text-decoration: line-through;
+}
+.qianggou {
+    float: left;
+    font-size: 14px;
+    color: #666666;
+}
+.qianggou span {
+    color: #f10215;
+}
+.shangou_jiaju {
+    width: 270px;
+    height: 265px;
+    background-color: #ffffff;
+    margin-top: 60px;
+    margin-left: 16px;
+}
+.shangou_jiaju {
+    text-align: center;
+}
+.shangou_logo {
+    margin-top: 10px;
+}
+.shangou_title {
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 16px;
+    color: black;
+}
+.shangou_jiage {
+    font-size: 13px;
+    color: #999999;
+}
+.shangou_tu img{
+    margin-top: 20px;
+}
+.pinpai {
+    margin-top: -291px;
+    margin-left: 314px;
+    width: 300px;
+}
+.pinpai ul {
+    display: flex;
+    flex-flow: wrap;
+}
+.pinpai ul li {
+    padding: 15px 10px;
+}
+.pinpai img {
+    width: 100px;
+    height: 50px;
+}
+.pinpai_title {
+    font-size: 12px;
+    text-align: center;
+}
+.fengeline {
+    border-right: 1px solid #cccccc;
+    height: 35px;
+    margin-top: -51px;
+    margin-left: 120px;
+}
+.haohuo {
+    display: flex;
+    flex-flow: wrap;
+}
+.haowu {
+    float: left;
+    margin-top: 20px;
+    height: 260px;
+    width: 190px;
+    background-image: url("../images/upload/024cad902388d7f9f52b5a5d4af7c479.png");
+}
+.yinying {
+    width: 160px;
+    height: 89px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-bottom-right-radius: 30px;
+    background-color: rgba(0,0,0,0.5);
+}
+.fxhw {
+    display: inline-block;
+    margin-top: -20px;
+    margin-left: 20px;
+    padding-top: 1px;
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+}
+.faxian {
+    margin-top: -30px;
+    margin-left: -5px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+.faxian:after{
+    content: "\ea42";
+    font-family: icomoon;
+    font-size: 16px;
+    color: white;
+    padding-left: 5px;
+}
+.shangpin_gunbo {
+    width: 990px;
+    height: 260px;
+    margin-left: 210px;
+    margin-top: -260px;
+    background-color: #f8f8f8;
+    overflow: hidden;
+}
+.shangpin_gunbo  ul {
+    display: flex;
+    flex-flow: wrap;
+}
+.shangpin_gunbo ul li {
+    width: 150px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.gunbo_sp {
+    text-align: left;
+    width: 150px;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 10px 20px;
+}
