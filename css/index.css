@@ -154,11 +154,71 @@
 .left1 ul li>a:hover {
     color: #f10215;
 }
-.left2 {
+
+#playBox {
     float: left;
     margin-left: 10px;
     margin-top: 10px;
+    width:590px;
+    height:470px;
+    background:#333;
+    position:relative;
+    overflow:hidden;
 }
+#playBox .oUlplay {
+    width:99999px;
+    position:absolute;
+    left:0;
+    top:0;
+}
+#playBox .oUlplay li {
+    float:left;
+}
+#playBox .smalltitle {
+    width:500px;
+    height:10px;
+    position:absolute;
+    bottom:15px;
+    z-index:10
+}
+#playBox .smalltitle ul {
+    width:120px;
+    margin:0 auto;
+}
+#playBox .smalltitle ul li {
+    width:10px;
+    height:10px;
+    margin:0 5px;
+    border-radius:10px;
+    background:#ffffff;
+    float:left;
+    overflow:hidden;
+    cursor:pointer;
+}
+#playBox .smalltitle .thistitle {
+    background:#69aaec;
+}
+#playBox .pre {
+    cursor:pointer;
+    width:25px;
+    height:45px;
+    position:absolute;
+    top:150px;
+    left:10px;
+    z-index:10;
+    text-align:center
+}
+#playBox .next {
+    cursor:pointer;
+    width:25px;
+    height:45px;
+    position:absolute;
+    top:150px;
+    right:10px;
+    z-index:10;
+    text-align:center
+}
+
 .right1 {
     margin-left: 10px;
     float: left;
@@ -579,7 +639,7 @@
 .pinpaishangou {
     float: right;
 }
-.mrtj {
+.a {
     float: left;
     font-size: 22px;
     font-weight: 700;
@@ -587,7 +647,7 @@
     margin-top: 15px;
     margin-left: 20px;
 }
-.mrtj:after{
+.a:after{
     content: "\ea42";
     font-family: icomoon;
     font-size: 20px;
@@ -812,15 +872,30 @@ dijia :hover {
     background-color: #f8f8f8;
     overflow: hidden;
 }
-.shangpin_gunbo  ul {
-    display: flex;
-    flex-flow: wrap;
+#container {
+    width:990px;
+    height:260px;
+    position:relative;
+    overflow:hidden;
 }
-.shangpin_gunbo ul li {
+#con-ul {
+    overflow:hidden;
+    position:absolute;
+    width:1200px;
+    left:0;
+    top:0;
+}
+#con-ul li {
+    list-style-type:none;
+    margin-top:40px;
+    float:left;
+    width:200px;
+}
+#con-ul li img {
     width: 150px;
-    margin-top: 40px;
-    margin-left: 40px;
+    height: 150px;
 }
+
 .gunbo_sp {
     text-align: left;
     width: 150px;
@@ -829,4 +904,153 @@ dijia :hover {
     overflow: hidden;
     text-overflow: ellipsis;
     padding: 10px 20px;
+}
+.teseyouxuan {
+    display: flex;
+    flex-flow: wrap;
+}
+.s {
+    width: 290px;
+    height: 340px;
+    background-color: #f8f8f8;
+    margin-top: 20px;
+    margin-right: 13px;
+}
+.lingquan {
+    margin-right: 0 !important;
+}
+
+
+.shoufa{
+    position:relative;
+}
+
+.list {
+    width:290px;
+    height:300px;
+    overflow:hidden;
+    position:absolute;
+    margin-top: 60px;
+}
+.list li {
+    position:absolute;
+    top:0;
+    left:0;
+    list-style:none;
+    opacity:0;
+    transition:all 0.3s ease-out;
+}
+.list img {
+    width:130px;
+    height:130px;
+    border:none;
+    float:left;
+}
+.p1 {
+    transform:translate3d(-104px,0,0) scale(0.81);
+}
+.p2 {
+    transform:translate3d(0px,0,0) scale(0.81);
+    transform-origin:0 50%;
+    opacity:0.8 !important;
+    z-index:2;
+}
+.p3 {
+    transform:translate3d(104px,0,0) scale(1);
+    z-index:3;
+    opacity:1 !important;
+}
+.p4 {
+    transform:translate3d(208px,0,0) scale(0.81);
+    transform-origin:100% 50%;
+    opacity:0.8 !important;
+    z-index:2;
+}
+.list_title {
+    overflow: hidden;
+    text-overflow: ellipsis;;
+    display: -webkit-box;
+    -webkit-line-clamp:1;
+    -webkit-box-orient: vertical;
+    text-align: center;
+    width: 130px;
+    font-size: 14px;
+    margin-top: 150px;
+}
+.faxian_more {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #999999;
+}
+.list_jiage {
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 700;
+    color: #f10215;
+}
+.paih_fenlei ul {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.paih_fenlei ul li span{
+    display: inline-block;
+    width: 62px;
+    height: 20px;
+    text-align: center;
+    background-color: #cccccc;
+    border-radius: 10px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.paih_fenlei ul li span:hover {
+    background-color: #f10215;
+    color: white;
+}
+.top1 {
+    width: 28.8px;
+    height: 40.8px;
+    background-repeat: no-repeat;
+
+}
+.top1 img {
+    width: 100%;
+    height: 100%;
+    margin-top: 42px;
+    margin-left: 20px;
+}
+.pai1 {
+    display: block;
+    color: darkgoldenrod;
+    font-size: 13px;
+    margin-top: -3em;
+    margin-left: 21px;
+}
+.pai2 {
+    display: block;
+    font-size: 18px;
+    color: white;
+    margin-left: 24px;
+    margin-top: -20px;
+}
+.iphone1 img{
+    width: 70px;
+    height: 70px;
+    margin-left: 64px;
+    margin-top: -17px;
+}
+.top_name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient: vertical;
+    font-size: 14px;
+    width: 140px;
+    margin-left: 149px;
+    margin-top: -57px;
+}
+.top_name:hover {
+    color: #f10215;
 }
