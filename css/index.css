@@ -1231,23 +1231,26 @@ dijia :hover {
 .quan_more3:hover {
     color: #f10215;
 }
+.pindao_title {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
 .pingd_t {
     display: block;
     font-size: 28px;
-    color: black;
     text-align: center;
+    color: black;
     font-weight: 700;
-    margin-top: -30px;
+    margin: 15px 20px;
 }
 .title_zuo {
     display: inline-block;
-    margin-top: 35px;
-    margin-left: 845px;
+    margin-top: 22px;
 }
 .title_you {
     display: inline-block;
-    margin-top: -72px;
-    margin-left: 1040px;
+    margin-top: 22px;
 }
 .pindao_goods {
     display: flex;

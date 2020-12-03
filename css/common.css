@@ -47,9 +47,10 @@
     color: #f10215;
 }
 .you_dingwei {
+    float: right;
     position: fixed;
     width: 58px;
-    margin-left: 1575px;
+    margin-left: 1230px;
     margin-top: 20px;
     top:170px;
     background-color: #f8f8f8;
@@ -169,8 +170,7 @@
 .dibu_lan1 ul {
     display: flex;
     flex-flow: wrap;
-    text-align: center;
-    margin-left: 65px;
+    justify-content: center;
 }
 .dibu_lan1 ul li {
     color: #cccccc;
@@ -188,29 +188,20 @@
 .l ul {
     display: flex;
     flex-flow: wrap;
+    justify-content: center;
 }
 .l ul li {
+    text-align: center;
     padding:0 5px;
     color: #cccccc;
 }
 .l ul li a{
+
     font-size: 12px;
     color: #999999;
 }
 .l ul li a:hover {
     color: #f10215;
-}
-.dibu_beian {
-    margin-left: 563px;
-}
-.dibu_jingying {
-    margin-left: 523px;
-}
-.chanquan {
-    margin-left: 605px;
-}
-.dibu_guoji {
-    margin-left: 611px;
 }
 .guoji_name {
     margin-left: 22px;
@@ -220,9 +211,6 @@
 }
 .guoji_name:hover {
     color: #f10215;
-}
-.jingdong {
-    margin-left: 801px;
 }
 .guoji1{
     width: 15px;
@@ -258,7 +246,8 @@
 .last {
     display: flex;
     flex-flow: wrap;
-    margin-left: 700px;
+    justify-content: center;
+    text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
 }
