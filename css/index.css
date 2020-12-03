@@ -60,11 +60,16 @@
 .little_search {
     font-size: 12px;
     color: #999999;
-
+}
+.little_search ul {
+    display: flex;
+    flex-flow: wrap;
 }
 .little_search ul li {
-    float: left;
     padding: 10px 5px;
+}
+.little_search ul li:last-child {
+    padding-right: 0 !important;
 }
 .little_search ul li:hover {
     color: #f10215;
